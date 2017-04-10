@@ -9,6 +9,8 @@ def main():
         outString += '['
         outString += tempString.replace(',', ' ')
         outString += ']\n'
-    with open("RandomStrat.txt", 'w') as f:
+    with open("in.txt", 'w') as f:
         f.write(outString)
-main()
+
+if __name__ == "__main__":
+    main()

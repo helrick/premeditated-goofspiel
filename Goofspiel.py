@@ -67,7 +67,6 @@ def readFile(path):
         lineString = line[1:-1]
         temp = lineString.split(" ")
         output.append(map(int,temp))
-    print(output)
     return output
 
 def writeFile(scores, strategies):
