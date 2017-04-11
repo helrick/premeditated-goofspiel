@@ -1,5 +1,3 @@
-#
-
 def main():
     import Goofspiel
     import geneticGoofspiel
