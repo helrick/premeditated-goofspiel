@@ -8,7 +8,8 @@ To run a tournament with n human teams:
 3) One team's strategy per line
 4) Run the Goofspiel.py file
 5) The results will be stored in the .csv file Results.csv
-6) Repeat steps 2-4 for as many iterations of the tournament as required
+6) Repeat steps 2-4 for as many iterations of the tournament as required, 
+   Copy and save the scores from Results.csv to prevent loss of data
 
 To simulate a tournament with agents, using a modified genetic algorithm 
 to change their strategies:

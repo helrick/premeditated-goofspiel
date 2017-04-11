@@ -25,7 +25,7 @@ def main():
 def writeStrategies(path, parents, children):
     #use the best competitor, 5 random children, and 19 random strategies for next generation
     outstring = ""
-    outstring += convertStrat(parents[0])
+    outstring += convertStrat(parents[5])
     outstring += "\n"
     for i in range(5):
         outstring += convertStrat(random.choice(children))
